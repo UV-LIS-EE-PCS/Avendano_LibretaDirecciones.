@@ -11,7 +11,7 @@ El sistema de libreta de direcciones está diseñado para gestionar entradas de 
 #### A.1) Estado del sistema
 
 #### A.2) Lista de clases
-#####AddressBook
+##### AddressBook
 - **Propósito: **Representa y contiene una lista de AddressEntry. Permite operaciones como agregar, eliminar, buscar, y listar entradas.
 - **Estructura de datos:** Utiliza una lista (ArrayList) para almacenar las entradas. La elección de una lista se debe a su flexibilidad y facilidad de uso para agregar y eliminar elementos.
 - **Eficiencia:** Las operaciones de agregar y eliminar son eficientes, aunque la búsqueda tiene una complejidad lineal debido a la necesidad de recorrer la lista.
