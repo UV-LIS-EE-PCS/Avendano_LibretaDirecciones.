@@ -1,14 +1,29 @@
 # Proyecto Libreta de Direcciones
 
 ### Sección A: Descripción
-El sistema de libreta de direcciones está diseñado para gestionar entradas de contacto mediante operaciones de agregar, eliminar, buscar, y listar entradas. A continuación, se describen las partes que funcionan correctamente:
-- **Agregar entradas:** El sistema permite al usuario agregar nuevas entradas de contacto proporcionando los datos requeridos.
-- **Eliminar entradas:** El sistema permite eliminar entradas de contacto previamente agregadas.
-- **Buscar entradas:** El sistema puede buscar entradas de contacto por el apellido o el inicio del apellido.
-- **Listar entradas:** El sistema lista todas las entradas en orden alfabético por apellido.
-- **Leer desde archivo:** El sistema puede leer entradas de contacto desde un archivo.
+El sistema de libreta de direcciones es una aplicación basada en consola diseñada para gestionar información de contacto. Proporciona funcionalidades para cargar entradas desde un archivo, agregar nuevas entradas, eliminar entradas existentes, buscar entradas por apellido y listar todas las entradas. 
+
 
 #### A.1) Estado del sistema
+**Carga de Entradas desde un Archivo:**
+- **Estado:** Funciona correctamente.
+- **Descripción:** El sistema permite al usuario cargar entradas de contacto desde un archivo de texto. Para que la carga sea exitosa, el usuario debe proporcionar la ruta completa del archivo (por ejemplo, C:\ruta\completa\a\Datos.txt). El archivo debe estar en formato CSV, donde cada línea representa una entrada de dirección con los siguientes campos separados por comas: nombre, apellido, calle, ciudad, estado, código postal, correo electrónico y teléfono. Una vez cargado el archivo, las entradas se almacenan en la libreta de direcciones y están disponibles para ser listadas o buscadas.
+
+**Agregar una Nueva Entrada:**
+- **Estado:** Funciona correctamente.
+- **Descripción:** Los usuarios pueden agregar nuevas entradas de contacto proporcionando la información requerida directamente a través de la consola. La información incluye nombre, apellido, calle, ciudad, estado, código postal, correo electrónico y teléfono. La nueva entrada se agrega a la libreta de direcciones y se puede verificar su adición listando todas las entradas.
+
+**Eliminar una Entrada:**
+- **Estado:** Funciona correctamente.
+- **Descripción:** Los usuarios pueden eliminar entradas de contacto existentes buscando por apellido. El sistema muestra todas las entradas que coinciden con el apellido proporcionado y permite al usuario seleccionar cuál de ellas eliminar. Si no se encuentran entradas con el apellido dado, el sistema informa al usuario.
+
+**Buscar Entradas:**
+- **Estado:** Funciona correctamente.
+- **Descripción:** Los usuarios pueden buscar entradas en la libreta de direcciones proporcionando un apellido o el inicio de un apellido. El sistema devuelve todas las entradas que coinciden con el criterio de búsqueda y las muestra en la consola. Esta funcionalidad es útil para encontrar rápidamente información de contacto específica.
+
+**Mostrar Todas las Entradas:**
+- **Estado:** Funciona correctamente.
+- **Descripción:** El sistema puede listar todas las entradas almacenadas en la libreta de direcciones. Esta funcionalidad permite al usuario revisar rápidamente toda la información de contacto disponible. Si no hay entradas en la libreta de direcciones, el sistema informa al usuario.
 
 #### A.2) Lista de clases
 ##### AddressBook
