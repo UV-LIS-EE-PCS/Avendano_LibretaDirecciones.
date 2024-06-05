@@ -12,7 +12,7 @@ El sistema de libreta de direcciones está diseñado para gestionar entradas de 
 
 #### A.2) Lista de clases
 ##### AddressBook
-- **Propósito: **Representa y contiene una lista de AddressEntry. Permite operaciones como agregar, eliminar, buscar, y listar entradas.
+- **Propósito:** Representa y contiene una lista de AddressEntry. Permite operaciones como agregar, eliminar, buscar, y listar entradas.
 - **Estructura de datos:** Utiliza una lista (ArrayList) para almacenar las entradas. La elección de una lista se debe a su flexibilidad y facilidad de uso para agregar y eliminar elementos.
 - **Eficiencia:** Las operaciones de agregar y eliminar son eficientes, aunque la búsqueda tiene una complejidad lineal debido a la necesidad de recorrer la lista.
 
@@ -39,25 +39,34 @@ La documentación JavaDoc del proyecto está disponible en el siguiente enlace:
 ### Sección D: Capturas de pantalla del sistema
 #### D.1) Evidencia 1
 Leer entradas del archivo de datos seguidas de Mostrar listado. El archivo de datos debe contener un mínimo de 2 direcciones. Incluir captura de pantalla de salida y también mostrar el contenido correspondiente del archivo de datos.
-Archivo: 
+
+**Archivo:**
 ![image](https://github.com/josephaven/Avenda-o_LibretaDirecciones./assets/153795069/e71d7d9b-8ac3-453d-8afb-9af66d7ec402)
 
-Salida:
+**Salida:**
 ![image](https://github.com/josephaven/Avenda-o_LibretaDirecciones./assets/153795069/e7aba8c1-066e-4751-9878-69a377677fcf)
 
-#### D.2) Evidencia 2: Agregar un nuevo objeto AddressEntry seguido de mostrar listado
-Captura de pantalla:
+#### D.2) Evidencia 2
+Inmediatamente después de D.1, agregue un nuevo objeto AddressEntry seguido de un mostrar el resultado de un nuevo listado en consola.
+![image](https://github.com/josephaven/Avenda-o_LibretaDirecciones./assets/153795069/11b6dcf8-5484-46bc-95bd-667b304dfed8)
+![image](https://github.com/josephaven/Avenda-o_LibretaDirecciones./assets/153795069/49b69ce7-6265-4318-9778-b9cd42474c05)
 
 
-#### D.3) Evidencia 3: Eliminar una entrada seguida de mostrar listado
-Captura de pantalla:
+
+#### D.3) Evidencia 3
+Inmediatamente después de D.2 hacer una eliminación de una entrada seguida de un mostrar listado.
+![image](https://github.com/josephaven/Avenda-o_LibretaDirecciones./assets/153795069/ef47017e-5635-4060-a176-5db33ae96393)
+![image](https://github.com/josephaven/Avenda-o_LibretaDirecciones./assets/153795069/baecfb4c-8eb1-4fa3-947f-c97965a6ff29)
 
 
-#### D.4) Evidencia 4: Buscar entradas
-Buscar entrada que debería recuperar al menos una entrada:
+#### D.4) Evidencia 4
+Inmediatamente siguiendo D.3 hago una búsqueda usando una entrada que debería recuperar al menos una entrada. Ahora haga una búsqueda usando una entrada que no debería recuperar ninguna entrada.
+**Entrada que deberia ser recuperada:**
+![image](https://github.com/josephaven/Avenda-o_LibretaDirecciones./assets/153795069/bd178503-943e-4571-918e-bb70f65f5640)
 
 
-Buscar entrada que no debería recuperar ninguna entrada:
+**Entrada que deberia no ser recuperada:**
+![image](https://github.com/josephaven/Avenda-o_LibretaDirecciones./assets/153795069/2c63feaf-0f43-46a3-b914-745a5f924249)
 
 
 ### Sección E: Historial de Commits
