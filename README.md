@@ -23,7 +23,7 @@ El sistema de libreta de direcciones está diseñado para gestionar entradas de 
 
 ##### AddressBookApplication
 - **Propósito:** Contiene la clase principal de la aplicación. Maneja la interacción con el usuario a través del menú y llama a los métodos apropiados de AddressBook.
-- **Eficiencia: **Maneja las operaciones de entrada/salida y coordina las acciones del usuario con las funciones de la libreta de direcciones.
+- **Eficiencia:** Maneja las operaciones de entrada/salida y coordina las acciones del usuario con las funciones de la libreta de direcciones.
 
 ##### Menu
 - **Propósito:** Muestra las opciones de menú al usuario y captura sus entradas. Llama a los métodos de AddressBook según la opción seleccionada.
@@ -37,7 +37,13 @@ La documentación JavaDoc del proyecto está disponible en el siguiente enlace:
 
 
 ### Sección D: Capturas de pantalla del sistema
-#### D.1) Evidencia 1: Leer entradas del archivo de datos seguidas de Mostrar listado
+#### D.1) Evidencia 1
+Leer entradas del archivo de datos seguidas de Mostrar listado. El archivo de datos debe contener un mínimo de 2 direcciones. Incluir captura de pantalla de salida y también mostrar el contenido correspondiente del archivo de datos.
+Archivo: 
+![image](https://github.com/josephaven/Avenda-o_LibretaDirecciones./assets/153795069/e71d7d9b-8ac3-453d-8afb-9af66d7ec402)
+
+Salida:
+![image](https://github.com/josephaven/Avenda-o_LibretaDirecciones./assets/153795069/e7aba8c1-066e-4751-9878-69a377677fcf)
 
 #### D.2) Evidencia 2: Agregar un nuevo objeto AddressEntry seguido de mostrar listado
 Captura de pantalla:
