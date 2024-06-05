@@ -61,10 +61,9 @@ Inmediatamente después de D.2 hacer una eliminación de una entrada seguida de 
 
 #### D.4) Evidencia 4
 Inmediatamente siguiendo D.3 hago una búsqueda usando una entrada que debería recuperar al menos una entrada. Ahora haga una búsqueda usando una entrada que no debería recuperar ninguna entrada.
+
 **Entrada que deberia ser recuperada:**
 ![image](https://github.com/josephaven/Avenda-o_LibretaDirecciones./assets/153795069/bd178503-943e-4571-918e-bb70f65f5640)
-
-
 **Entrada que deberia no ser recuperada:**
 ![image](https://github.com/josephaven/Avenda-o_LibretaDirecciones./assets/153795069/2c63feaf-0f43-46a3-b914-745a5f924249)
 
