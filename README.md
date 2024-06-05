@@ -27,21 +27,23 @@ El sistema de libreta de direcciones es una aplicación basada en consola diseñ
 
 ### A.2) Lista de clases
 ##### AddressBook
-- **Propósito:** Representa y contiene una lista de AddressEntry. Permite operaciones como agregar, eliminar, buscar, y listar entradas.
-- **Estructura de datos:** Utiliza una lista (ArrayList) para almacenar las entradas. La elección de una lista se debe a su flexibilidad y facilidad de uso para agregar y eliminar elementos.
+- **Propósito:** Gestiona una colección de entradas de direcciones. Permite agregar, eliminar, buscar, listar y cargar entradas desde un archivo.
+- **Estructura de datos:** Utiliza un TreeMap<String, List<AddressEntry>> donde la clave es el apellido y el valor es una lista de entradas de direcciones con ese apellido.
 - **Eficiencia:** Las operaciones de agregar y eliminar son eficientes, aunque la búsqueda tiene una complejidad lineal debido a la necesidad de recorrer la lista.
 
 ##### AddressEntry
-- **Propósito:** Representa una entrada individual de contacto en la libreta de direcciones.
-- **Estructura de datos:** Contiene variables de clase para almacenar información como nombre, apellido, calle, ciudad, estado, código postal, correo electrónico, y teléfono.
+- **Propósito:** Representa una entrada de dirección con información de contacto como nombre, apellido, calle, ciudad, estado, código postal, correo electrónico y teléfono.
+- **Estructura de datos:** Contiene variables de clase para almacenar información como nombre, apellido, calle, ciudad, estado, código postal, correo electrónico, y teléfono. 
 - **Eficiencia:** Los métodos set y get tienen una complejidad constante.
 
 ##### AddressBookApplication
-- **Propósito:** Contiene la clase principal de la aplicación. Maneja la interacción con el usuario a través del menú y llama a los métodos apropiados de AddressBook.
+- **Propósito:** Clase principal que inicia la aplicación de la libreta de direcciones y muestra el menú.
+- **Estructura de Datos:** Contiene el método main que crea una instancia de AddressBook y Menu, y llama al método displayMenu.
 - **Eficiencia:** Maneja las operaciones de entrada/salida y coordina las acciones del usuario con las funciones de la libreta de direcciones.
 
 ##### Menu
-- **Propósito:** Muestra las opciones de menú al usuario y captura sus entradas. Llama a los métodos de AddressBook según la opción seleccionada.
+- **Propósito:** Proporciona una interfaz de usuario para interactuar con la libreta de direcciones. Ofrece opciones para cargar entradas desde un archivo, agregar, eliminar, buscar y listar entradas.
+- **Estructura de Datos:** Utiliza un Scanner para la entrada del usuario y métodos que interactúan con una instancia de AddressBook.
 - **Eficiencia:** La eficiencia depende de las operaciones subyacentes que invoca en AddressBook.
 
 ## Sección B: URL de JavaDoc
