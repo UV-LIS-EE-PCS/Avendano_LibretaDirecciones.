@@ -90,5 +90,4 @@ Inmediatamente siguiendo D.3 hago una búsqueda usando una entrada que debería 
 ![image](https://github.com/josephaven/Avenda-o_LibretaDirecciones./assets/153795069/2c63feaf-0f43-46a3-b914-745a5f924249)
 
 
-## Sección E: Historial de Commits
-Capturas de pantalla del historial de commits
+
