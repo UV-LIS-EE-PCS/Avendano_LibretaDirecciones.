@@ -66,6 +66,7 @@ Leer entradas del archivo de datos seguidas de Mostrar listado. El archivo de da
 
 ### D.2) Evidencia 2
 Inmediatamente después de D.1, agregue un nuevo objeto AddressEntry seguido de un mostrar el resultado de un nuevo listado en consola.
+
 ![image](https://github.com/josephaven/Avenda-o_LibretaDirecciones./assets/153795069/11b6dcf8-5484-46bc-95bd-667b304dfed8)
 ![image](https://github.com/josephaven/Avenda-o_LibretaDirecciones./assets/153795069/49b69ce7-6265-4318-9778-b9cd42474c05)
 
