@@ -51,6 +51,7 @@ La documentación JavaDoc del proyecto está disponible en el siguiente enlace:
 
 ## Sección C: UML/Diseño
 ### C.1) Diagrama de jerarquía de clases UML
+![Diagrama en blanco (1)](https://github.com/josephaven/Avenda-o_LibretaDirecciones./assets/153795069/28de47ab-ed6b-4190-b7a4-01c2fddea02b)
 
 
 ## Sección D: Capturas de pantalla del sistema
