@@ -48,6 +48,7 @@ El sistema de libreta de direcciones es una aplicación basada en consola diseñ
 
 ## Sección B: URL de JavaDoc
 La documentación JavaDoc del proyecto está disponible en el siguiente enlace:
+https://steady-capybara-4431d8.netlify.app/
 
 ## Sección C: UML/Diseño
 ### C.1) Diagrama de jerarquía de clases UML
